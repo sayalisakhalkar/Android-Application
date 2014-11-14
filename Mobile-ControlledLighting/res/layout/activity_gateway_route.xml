@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+
+    <Button
+        android:id="@+id/switchRouter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawableRight="@drawable/right"
+        android:layout_weight="1"
+        android:background="#011f4b"
+        android:text="Switches"
+        android:textColor="@android:color/white"
+        android:textSize="24dp" 
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+    </Button>
+
+    <Button
+        android:id="@+id/floorRouter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawableRight="@drawable/right"
+        android:layout_weight="1"
+        android:background="#011f4b"
+        android:text="Floors"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        android:layout_marginTop="5dp"
+         android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" >
+    </Button>
+
+    <Button
+        android:id="@+id/roomRouter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Rooms"
+        android:background="#011f4b"
+        android:drawableRight="@drawable/right"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" >
+    </Button>
+
+</LinearLayout>

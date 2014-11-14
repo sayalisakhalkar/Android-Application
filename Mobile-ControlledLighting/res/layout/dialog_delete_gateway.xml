@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#011f4b"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" >
+
+    <EditText
+            android:id="@+id/gatewayName"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/rect_text_edit"
+            android:maxLines="1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:singleLine="true"
+            android:textColor="#008bcb"
+            android:textStyle="bold"
+            android:editable="false"/>
+
+    <LinearLayout
+        android:id="@+id/add_favorite_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/delete_gateway_button"
+            android:layout_width="200sp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/submit_button_bg"
+            android:text="Yes"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/dialog_cancel"
+            android:layout_width="200sp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/submit_button_bg"
+            android:text="No"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

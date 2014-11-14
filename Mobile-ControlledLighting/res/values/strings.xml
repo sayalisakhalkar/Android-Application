@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobile-Controlled Lighting</string>
+    <string name="country_prompt">Choose a country</string>
+    <string name="title_activity_edit_switch">EditSwitchActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world</string>
+
+    <string-array name="floor_array">
+        <item>basement</item>
+        <item>first floor</item>
+        <item>second floor</item>
+        <item>roof</item>
+    </string-array>
+
+    <string name="title_activity_edit_user">Users</string>
+    <string name="title_reset_pwd">Reset Password</string>
+    <string name="title_activity_configure_gateway">ConfigureGateway</string>
+    <string name="title_activity_manage_gateway">ManageGateway</string>
+    <string name="title_activity_favourites">Favourites</string>
+    <string name="title_activity_adduser">Add User</string>
+    <string name="title_activity_addswitch">Add Switch</string>
+    <string name="title_activity_favouritescreen">Favorites</string>
+    <string name="title_activity_favorite">FavoriteActivity</string>
+    <string name="title_activity_manage_switch">ManageSwitchActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_application_name">Mobile-Controlled Lighting</string>
+    <string name="title_activity_loginUser">LoginActivity</string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+    <string name="title_activity_gateway_route">GatewayRouteActivity</string>
+    <string name="title_activity_gates_in_gateway">GatesInGateway</string>
+    <string name="title_activity_rooms_in_floor">Rooms</string>
+    <string name="title_activity_switch_in_room">SwitchInRoomActivity</string>
+
+</resources>

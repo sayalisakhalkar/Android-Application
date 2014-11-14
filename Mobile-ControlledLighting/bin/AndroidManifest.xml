@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.advanchip.mobile_controlledlighting"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:label="@string/title_activity_signup"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_loginUser"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:label="@string/title_reset_pwd" >
+        </activity>
+        <activity
+            android:name=".EditSwitchActivity"
+            android:label="@string/title_activity_edit_switch" >
+        </activity>
+        <activity
+            android:name=".AddUserActivity"
+            android:label="@string/title_activity_edit_switch" >
+        </activity>
+        <!-- Added new activities -->
+        <activity
+            android:name=".AddSwitchActivity"
+            android:label="@string/title_activity_addswitch" >
+        </activity>
+        <activity
+            android:name=".FavouriteScreenActivity"
+            android:label="@string/title_activity_favouritescreen" >
+        </activity>
+        <activity
+            android:name=".ManageUsersActivity"
+            android:label="@string/title_activity_edit_user" >
+        </activity>
+        <activity
+            android:name=".ConfigureGateway"
+            android:label="@string/title_activity_configure_gateway" >
+        </activity>
+        <activity
+            android:name=".ManageGateway"
+            android:label="@string/title_activity_manage_gateway" >
+        </activity>
+        <activity
+            android:name=".FavoriteActivity"
+            android:label="@string/title_activity_favorite" >
+        </activity>
+        <activity
+            android:name=".ManageSwitchActivity"
+            android:label="@string/title_activity_manage_switch" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_application_name" >
+        </activity>
+        <activity
+            android:name=".EntryActivity"
+            android:label="@string/title_application_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:label="@string/title_activity_forgot_password" >
+        </activity>
+        <activity
+            android:name=".GatewayRouteActivity"
+            android:label="@string/title_activity_gateway_route" >
+        </activity>
+        <activity
+            android:name=".GatesInGateway"
+            android:label="@string/title_activity_gates_in_gateway" >
+        </activity>
+        <activity
+            android:name=".FloorsInGatewayActivity"
+            android:label="@string/title_activity_gates_in_gateway" >
+        </activity>
+        <activity
+            android:name=".RoomsInFloorActivity"
+            android:label="@string/title_activity_rooms_in_floor" >
+        </activity>
+        <activity
+            android:name=".SwitchInRoomActivity"
+            android:label="@string/title_activity_switch_in_room" >
+        </activity>
+    </application>
+
+</manifest>

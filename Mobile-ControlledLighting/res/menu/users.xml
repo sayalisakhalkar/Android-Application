@@ -1,0 +1,12 @@
+<!--  Menu for edit user -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.advanchip.mobile_controlledlighting.EditUser" >
+
+    <item
+        android:id="@+id/action_add_user"
+        android:icon="@drawable/ic_action_new"
+        android:showAsAction="always"
+        android:title="@string/action_settings"/>
+
+</menu>

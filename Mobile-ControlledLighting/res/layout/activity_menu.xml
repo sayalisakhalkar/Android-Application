@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#011f4b" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="5dp" >
+        
+        <Button
+        android:id="@+id/manageUsers"
+        android:layout_width="150dp" 
+        android:layout_height="150dp"
+        android:background="@drawable/user"
+        android:layout_gravity="center"/>
+        
+        <TextView 
+            android:id="@+id/managerUserText"
+            android:text="Manage Users" 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center_horizontal"
+        	android:textColor="@android:color/white"
+         />
+        
+        
+        
+            
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" 
+        android:layout_height="match_parent"
+        android:padding="5dp">
+        <Button
+        android:id="@+id/manageGateways"
+        android:layout_width="150dp" 
+        android:layout_height="150dp"
+        android:background="@drawable/voip_gateway"
+        android:layout_gravity="center"/>
+        
+        <TextView 
+            android:id="@+id/managerGatewayText"
+            android:text="Manage Gateways" 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center_horizontal"
+        	android:textColor="@android:color/white"
+         />
+        
+    </LinearLayout>
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="5dp" >
+        
+        <Button
+        android:id="@+id/favorites"
+        android:layout_width="150dp" 
+        android:layout_height="150dp"
+        android:background="@drawable/favorite"
+        android:layout_gravity="center"/>
+        
+        <TextView 
+            android:id="@+id/favoritesText"
+            android:text="Favorites" 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center_horizontal"
+        	android:textColor="@android:color/white"
+         />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="5dp" >
+        
+        <Button
+        android:id="@+id/manageSwitches"
+        android:layout_width="150dp" 
+        android:layout_height="150dp"
+        android:background="@drawable/idea"
+        android:layout_gravity="center"/>
+        
+        <TextView 
+            android:id="@+id/managerLights"
+            android:text="Manage Switches" 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center_horizontal"
+        	android:textColor="@android:color/white"
+         />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
